@@ -1,0 +1,17 @@
+C:\Projects\BaanCorner\BaanCorner\bin\Debug R24\BaanCorner.dll
+C:\Projects\BaanCorner\BaanCorner\bin\Debug R24\BaanCorner.pdb
+C:\Projects\BaanCorner\BaanCorner\bin\Debug R24\JetBrains.Annotations.dll
+C:\Projects\BaanCorner\BaanCorner\bin\Debug R24\Nice3point.Revit.Extensions.dll
+C:\Projects\BaanCorner\BaanCorner\bin\Debug R24\Nice3point.Revit.Toolkit.dll
+C:\Projects\BaanCorner\BaanCorner\obj\Debug R24\BaanCorner.csproj.AssemblyReference.cache
+C:\Projects\BaanCorner\BaanCorner\obj\Debug R24\BaanCorner.g.resources
+C:\Projects\BaanCorner\BaanCorner\obj\Debug R24\BaanCorner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\BaanCorner\BaanCorner\obj\Debug R24\BaanCorner.AssemblyInfoInputs.cache
+C:\Projects\BaanCorner\BaanCorner\obj\Debug R24\BaanCorner.AssemblyInfo.cs
+C:\Projects\BaanCorner\BaanCorner\obj\Debug R24\BaanCorner.csproj.CoreCompileInputs.cache
+C:\Projects\BaanCorner\BaanCorner\obj\Debug R24\BaanCorner.csproj.Up2Date
+C:\Projects\BaanCorner\BaanCorner\obj\Debug R24\BaanCorner.dll
+C:\Projects\BaanCorner\BaanCorner\obj\Debug R24\BaanCorner.pdb
+C:\Projects\BaanCorner\BaanCorner\obj\Debug R24\UnitConverter.baml
+C:\Projects\BaanCorner\BaanCorner\obj\Debug R24\UnitConverter.g.cs
+C:\Projects\BaanCorner\BaanCorner\obj\Debug R24\BaanCorner_MarkupCompile.cache

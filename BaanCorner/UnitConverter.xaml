@@ -1,0 +1,183 @@
+﻿<Window x:Class="UnitConverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Project Units" Height="450" Width="500">
+    
+    <Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10">
+            <Button Name="Export" Content="Export" Margin="6" Width="100" Height="25" Click="ExportButton_Click">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="LightGray" BorderBrush="Black" BorderThickness="1" CornerRadius="3">
+                            <ContentPresenter
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button Name="Import" Content="Import" Margin="4" Width="100" Click="ImportButton_Click">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="LightGray" BorderBrush="Black" BorderThickness="1" CornerRadius="3">
+                            <ContentPresenter
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+        </StackPanel>
+        <TabControl Name="DisciplineTabControl" Margin="10,60,10,50">
+            <TabItem Header="Common">
+                <DataGrid Name="CommonDataGrid" AutoGenerateColumns="False" IsReadOnly="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ชื่อหน่วย (Unit Name)" Binding="{Binding UnitName}" IsReadOnly="True" Width="*"/>
+                        
+                        <DataGridTemplateColumn Header="ฟอร์แมตหน่วย (Unit Format)" Width="*">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ComboBox ItemsSource="{Binding FormatOptions}" 
+                                              SelectedItem="{Binding SelectedFormat, Mode=TwoWay}" />
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            
+            <TabItem Header="Electrical">
+                <DataGrid Name="ElectricalDataGrid" AutoGenerateColumns="False" IsReadOnly="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ชื่อหน่วย (Unit Name)" Binding="{Binding UnitName}" IsReadOnly="True" Width="*"/>
+                        
+                        <DataGridTemplateColumn Header="ฟอร์แมตหน่วย (Unit Format)" Width="*">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ComboBox ItemsSource="{Binding FormatOptions}" 
+                                              SelectedItem="{Binding SelectedFormat, Mode=TwoWay}" />
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+
+            <TabItem Header="Energy">
+                <DataGrid Name="EnergyDataGrid" AutoGenerateColumns="False" IsReadOnly="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ชื่อหน่วย (Unit Name)" Binding="{Binding UnitName}" IsReadOnly="True" Width="*"/>
+                        
+                        <!-- คอลัมน์ Format สำหรับฟอร์แมต -->
+                        <DataGridTemplateColumn Header="ฟอร์แมตหน่วย (Unit Format)" Width="*">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ComboBox ItemsSource="{Binding FormatOptions}" 
+                                              SelectedItem="{Binding SelectedFormat, Mode=TwoWay}" />
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            
+            <TabItem Header="HVAC">
+                <DataGrid Name="HVACDataGrid" AutoGenerateColumns="False" IsReadOnly="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ชื่อหน่วย (Unit Name)" Binding="{Binding UnitName}" IsReadOnly="True" Width="*"/>
+                        
+                        <!-- คอลัมน์ Format สำหรับฟอร์แมต -->
+                        <DataGridTemplateColumn Header="ฟอร์แมตหน่วย (Unit Format)" Width="*">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ComboBox ItemsSource="{Binding FormatOptions}" 
+                                              SelectedItem="{Binding SelectedFormat, Mode=TwoWay}" />
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            
+            <TabItem Header="Infrastructure">
+                <DataGrid Name="InfastructureDataGrid" AutoGenerateColumns="False" IsReadOnly="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ชื่อหน่วย (Unit Name)" Binding="{Binding UnitName}" IsReadOnly="True" Width="*"/>
+                        
+                        <!-- คอลัมน์ Format สำหรับฟอร์แมต -->
+                        <DataGridTemplateColumn Header="ฟอร์แมตหน่วย (Unit Format)" Width="*">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ComboBox ItemsSource="{Binding FormatOptions}" 
+                                              SelectedItem="{Binding SelectedFormat, Mode=TwoWay}" />
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            
+            <TabItem Header="Piping">
+                <DataGrid Name="PipingDataGrid" AutoGenerateColumns="False" IsReadOnly="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ชื่อหน่วย (Unit Name)" Binding="{Binding UnitName}" IsReadOnly="True" Width="*"/>
+                        
+                        <!-- คอลัมน์ Format สำหรับฟอร์แมต -->
+                        <DataGridTemplateColumn Header="ฟอร์แมตหน่วย (Unit Format)" Width="*">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ComboBox ItemsSource="{Binding FormatOptions}" 
+                                              SelectedItem="{Binding SelectedFormat, Mode=TwoWay}" />
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            
+            <TabItem Header="Structural">
+                <DataGrid Name="StructuralDataGrid" AutoGenerateColumns="False" IsReadOnly="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ชื่อหน่วย (Unit Name)" Binding="{Binding UnitName}" IsReadOnly="True" Width="*"/>
+                        
+                        <!-- คอลัมน์ Format สำหรับฟอร์แมต -->
+                        <DataGridTemplateColumn Header="ฟอร์แมตหน่วย (Unit Format)" Width="*">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ComboBox ItemsSource="{Binding FormatOptions}" 
+                                              SelectedItem="{Binding SelectedFormat, Mode=TwoWay}" />
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+        </TabControl>
+
+        <!-- ปุ่มด้านล่าง -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10">
+            <Button Name="ApplyButton" Content="Apply" Margin="6" Width="100" Height="25" Click="ApplyButton_Click">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="LightGray" BorderBrush="Black" BorderThickness="1" CornerRadius="3">
+                            <ContentPresenter
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button Name="CloseButton" Content="Close" Margin="6" Width="100" Height="25" Click="CloseButton_Click">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="LightGray" BorderBrush="Black" BorderThickness="1" CornerRadius="3">
+                            <ContentPresenter
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

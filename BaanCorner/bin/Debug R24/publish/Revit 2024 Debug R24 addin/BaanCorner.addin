@@ -1,0 +1,11 @@
+﻿<RevitAddIns>
+    <AddIn Type="Application">
+        <Name>BaanCorner</Name>
+        <Assembly>BaanCorner/BaanCorner.dll</Assembly>
+        <AddInId>95B32CBE-036F-4CE0-A689-CA6D04907976</AddInId>
+        <FullClassName>BaanCorner.Application</FullClassName>
+        <VendorId>Development</VendorId>
+        <VendorDescription></VendorDescription>
+        <VendorEmail></VendorEmail>
+    </AddIn>
+</RevitAddIns>

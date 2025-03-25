@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\BaanCorner\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8ACE0457-5674-4083-841B-FA877D7FC449}|BaanCorner\\BaanCorner.csproj|c:\\projects\\baancorner\\baancorner\\commands\\startupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ACE0457-5674-4083-841B-FA877D7FC449}|BaanCorner\\BaanCorner.csproj|solutionrelative:baancorner\\commands\\startupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ACE0457-5674-4083-841B-FA877D7FC449}|BaanCorner\\BaanCorner.csproj|c:\\projects\\baancorner\\baancorner\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ACE0457-5674-4083-841B-FA877D7FC449}|BaanCorner\\BaanCorner.csproj|solutionrelative:baancorner\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ACE0457-5674-4083-841B-FA877D7FC449}|BaanCorner\\BaanCorner.csproj|c:\\projects\\baancorner\\baancorner\\baancorner.addin||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8ACE0457-5674-4083-841B-FA877D7FC449}|BaanCorner\\BaanCorner.csproj|solutionrelative:baancorner\\baancorner.addin||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ACE0457-5674-4083-841B-FA877D7FC449}|BaanCorner\\BaanCorner.csproj|c:\\projects\\baancorner\\baancorner\\baancorner.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8ACE0457-5674-4083-841B-FA877D7FC449}|BaanCorner\\BaanCorner.csproj|solutionrelative:baancorner\\baancorner.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaanCorner.addin",
+              "DocumentMoniker": "C:\\Projects\\BaanCorner\\BaanCorner\\BaanCorner.addin",
+              "RelativeDocumentMoniker": "BaanCorner\\BaanCorner.addin",
+              "ToolTip": "C:\\Projects\\BaanCorner\\BaanCorner\\BaanCorner.addin",
+              "RelativeToolTip": "BaanCorner\\BaanCorner.addin",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000072|",
+              "WhenOpened": "2025-03-24T14:33:30.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaanCorner",
+              "DocumentMoniker": "C:\\Projects\\BaanCorner\\BaanCorner\\BaanCorner.csproj",
+              "RelativeDocumentMoniker": "BaanCorner\\BaanCorner.csproj",
+              "ToolTip": "C:\\Projects\\BaanCorner\\BaanCorner\\BaanCorner.csproj",
+              "RelativeToolTip": "BaanCorner\\BaanCorner.csproj",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-24T14:33:07.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StartupCommand.cs",
+              "DocumentMoniker": "C:\\Projects\\BaanCorner\\BaanCorner\\Commands\\StartupCommand.cs",
+              "RelativeDocumentMoniker": "BaanCorner\\Commands\\StartupCommand.cs",
+              "ToolTip": "C:\\Projects\\BaanCorner\\BaanCorner\\Commands\\StartupCommand.cs",
+              "RelativeToolTip": "BaanCorner\\Commands\\StartupCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T14:35:11.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Application.cs",
+              "DocumentMoniker": "C:\\Projects\\BaanCorner\\BaanCorner\\Application.cs",
+              "RelativeDocumentMoniker": "BaanCorner\\Application.cs",
+              "ToolTip": "C:\\Projects\\BaanCorner\\BaanCorner\\Application.cs",
+              "RelativeToolTip": "BaanCorner\\Application.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T14:31:34.066Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
