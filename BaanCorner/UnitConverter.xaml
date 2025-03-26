@@ -5,24 +5,31 @@
     
     <Grid>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10">
-            <Button Name="Export" Content="Export" Margin="6" Width="100" Height="25" Click="ExportButton_Click">
+            <Button Name="Export" Margin="6" Width="100" Height="25" Click="ExportButton_Click">
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
                         <Border Background="LightGray" BorderBrush="Black" BorderThickness="1" CornerRadius="3">
-                            <ContentPresenter
-                                HorizontalAlignment="Center"
-                                VerticalAlignment="Center"/>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                <!-- เพิ่มไอคอน -->
+                                <Image Source="Resources/Icons/export16.png" Width="16" Height="16" Margin="0,0,5,0"/>
+                                <!-- เพิ่มข้อความ -->
+                                <TextBlock Text="Export" VerticalAlignment="Center"/>
+                            </StackPanel>
                         </Border>
                     </ControlTemplate>
                 </Button.Template>
             </Button>
-            <Button Name="Import" Content="Import" Margin="4" Width="100" Click="ImportButton_Click">
+
+            <Button Name="Import" Content="Import" Margin="6" Width="100" Click="ImportButton_Click">
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
                         <Border Background="LightGray" BorderBrush="Black" BorderThickness="1" CornerRadius="3">
-                            <ContentPresenter
-                                HorizontalAlignment="Center"
-                                VerticalAlignment="Center"/>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                <!-- เพิ่มไอคอน -->
+                                <Image Source="Resources/Icons/import16.png" Width="16" Height="16" Margin="0,0,5,0"/>
+                                <!-- เพิ่มข้อความ -->
+                                <TextBlock Text="Import" VerticalAlignment="Center"/>
+                            </StackPanel>
                         </Border>
                     </ControlTemplate>
                 </Button.Template>

@@ -1,0 +1,137 @@
+autodesk.spec.aec.electrical:apparentPower-2.0.0:Volt amperes:British thermal units per hour,British thermal units per second,Calories per second,Horsepower,Kilocalories per second,Kilovolt amperes,Kilowatts,Volt amperes,Watts
+autodesk.spec.aec.electrical:apparentPowerDensity-1.0.0:Volt amperes per square foot:Volt amperes per square foot,Volt amperes per square meter
+autodesk.spec.aec.electrical:cableTraySize-2.0.0:Fractional inches:Centimeters,Decimeters,Feet,Inches,Meters,Millimeters,Feet and fractional inches,Fractional inches,Meters and centimeters
+autodesk.spec.aec.electrical:colorTemperature-2.0.0:Kelvin:Kelvin
+autodesk.spec.aec.electrical:conduitSize-2.0.0:Fractional inches:Centimeters,Decimeters,Feet,Inches,Meters,Millimeters,Feet and fractional inches,Fractional inches,Meters and centimeters
+autodesk.spec.aec.electrical:costRateEnergy-2.0.0:Cost per British thermal unit:Cost per British thermal unit,Cost per watt hour
+autodesk.spec.aec.electrical:costRatePower-2.0.0:Cost per British thermal unit per hour:Cost per British thermal unit per hour,Cost per watt
+autodesk.spec.aec.electrical:current-2.0.0:Amperes:Amperes,Kiloamperes,Milliamperes
+autodesk.spec.aec.electrical:demandFactor-2.0.0:Percentage:Fixed,Percentage
+autodesk.spec.aec.electrical:efficacy-2.0.0:Unknown:
+autodesk.spec.aec.electrical:frequency-2.0.0:Hertz:Cubic feet per minute cubic foot,Cycles per second,Hertz,Liters per second cubic meter
+autodesk.spec.aec.electrical:illuminance-2.0.0:Lumens per watt:Lumens per watt
+autodesk.spec.aec.electrical:luminance-2.0.0:Candelas per square meter:Candelas per square foot,Candelas per square meter,Footlamberts
+autodesk.spec.aec.electrical:luminousFlux-2.0.0:Lumens:Lumens
+autodesk.spec.aec.electrical:luminousIntensity-2.0.0:Candelas:Candelas
+autodesk.spec.aec.electrical:potential-2.0.0:Volts:Kilovolts,Millivolts,Volts
+autodesk.spec.aec.electrical:power-2.0.0:Volt amperes:British thermal units per hour,British thermal units per second,Calories per second,Horsepower,Kilocalories per second,Kilovolt amperes,Kilowatts,Volt amperes,Watts
+autodesk.spec.aec.electrical:powerDensity-2.0.0:Watts per square foot:British thermal units per hour square foot,Watts per square foot,Watt per square meter
+autodesk.spec.aec.electrical:powerPerLength-2.0.0:Watts per foot:Watts per foot,Watts per meter
+autodesk.spec.aec.electrical:resistivity-2.0.0:Ohm meters:Ohm meters
+autodesk.spec.aec.electrical:temperature-2.0.0:Fahrenheit:Celsius,Fahrenheit,Kelvin,Rankine
+autodesk.spec.aec.electrical:wattage-2.0.0:Watts:Watts
+autodesk.spec.aec.electrical:wireDiameter-2.0.0:Inches:Centimeters,Decimeters,Feet,Meters,Inches,Millimeters,Feet and fractional inches,Fractional inches,Meters and centimeters
+autodesk.spec.aec.energy:energy-2.0.0:British thermal units:British thermal unit,Calories,Joules,Kilocalories,Kilowatt hours,Therms,Pound force feet
+autodesk.spec.aec.energy:heatCapacityPerArea-2.0.0:British thermal units per square foot degree Fahrenheit:British thermal units per square foot degree Fahrenheit,Joules per square meter Kelvin,Kilojoules per square meter Kelvin
+autodesk.spec.aec.energy:heatTransferCoefficient-2.0.0:British thermal units per hour square foot degree Fahrenheit:British thermal units per hour square foot degree Fahrenheit,Watts per square meter kelvin
+autodesk.spec.aec.energy:isothermalMoistureCapacity-2.0.0:Cubic feet per pound mass:Cubic feet per pound mass,Cubic meters per kilogram
+autodesk.spec.aec.energy:permeability-2.0.0:Grains per hour square foot inch mercury:Grains per hour square foot inch mercury,Nanograms per pascal second square meter
+autodesk.spec.aec.energy:specificHeat-2.0.0:British thermal units per pound degree Fahrenheit:British thermal units per pound degree Fahrenheit,Joules per gram degree Celsius,Joules per kilogram degree Celsius
+autodesk.spec.aec.energy:specificHeatOfVaporization-2.0.0:British thermal units per pound:British thermal units per pound,Joules per gram
+autodesk.spec.aec.energy:thermalConductivity-2.0.0:Unknown:British thermal units per hour foot degree Fahrenheit,Watts per meter kelvin
+autodesk.spec.aec.energy:thermalGradientCoefficientForMoistureCapacity-2.0.0:Kilograms per kilogram kelvin:Kilograms per kilogram kelvin,Pounds mass per pound degree Fahrenheit
+autodesk.spec.aec.energy:thermalMass-2.0.0:British thermal units per degree Fahrenheit:British thermal units per degree Fahrenheit,Joules per Kelvin,Kilojoules per Kelvin
+autodesk.spec.aec.energy:thermalResistance-2.0.0:Hour square foot degrees Fahrenheit per British thermal unit:Hour square foot degrees Fahrenheit per British thermal unit,Square meter kelvins per watt
+autodesk.spec.aec.hvac:airFlow-2.0.0:Cubic feet per minute:Cubic feet per hour,Cubic feet per minute,Cubic meters per hour,Cubic meters per second,Liters per hour,Liters per second,US gallons per hour,US gallons per minute
+autodesk.spec.aec.hvac:airFlowDensity-2.0.0:Cubic feet per minute square foot:Cubic feet per minute square foot,Cubic meters per hour square meter,Liters per second square meter
+autodesk.spec.aec.hvac:airFlowDividedByCoolingLoad-2.0.0:Cubic feet per minute ton of refrigeration:Cubic feet per minute ton of refrigeration,Liters per second kilowatt
+autodesk.spec.aec.hvac:airFlowDividedByVolume-2.0.0:Cubic feet per minute cubic foot:Cubic feet per minute cubic foot,Cubic meters per hour cubic meter,Liters per second cubic meter
+autodesk.spec.aec.hvac:angularSpeed-2.0.0:Revolutions per minute:Revolutions per minute,Revolutions per second
+autodesk.spec.aec.hvac:areaDividedByCoolingLoad-2.0.0:Square feet per ton of refrigeration:Square feet per thousand British thermal units per hour,Square feet per ton of refrigeration,Square meters per kilowatt
+autodesk.spec.aec.hvac:areaDividedByHeatingLoad-2.0.0:Square feet per thousand British thermal units per hour:Square feet per thousand British thermal units per hour,Square meters per kilowatt
+autodesk.spec.aec.hvac:coolingLoad-2.0.0:British thermal units per hour:British thermal units per hour,British thermal units per second,Kilowatts,Tons of refrigeration,Watts
+autodesk.spec.aec.hvac:coolingLoadDividedByArea-2.0.0:British thermal units per hour square foot:British thermal units per hour square foot,Watts per square foot,Watts per square meter
+autodesk.spec.aec.hvac:coolingLoadDividedByVolume-2.0.0:British thermal units per hour cubic foot:British thermal units per hour cubic foot,Watts per cubic foot,Watts per cubic meter
+autodesk.spec.aec.hvac:crossSection-2.0.0:Square inches:Acres,Hectares,Square centimeters,Square feet,Square inches,Square meters,Square millimeters
+autodesk.spec.aec.hvac:density-2.0.0:Pounds mass per cubic foot:Kilograms per cubic meter,Pounds mass per cubic foot,Pounds mass per cubic inch
+autodesk.spec.aec.hvac:diffusivity-2.0.0:Square feet per second:Square feet per second,Square meters per second
+autodesk.spec.aec.hvac:ductInsulationThickness-2.0.0:Fractional inches:Centimeters,Decimeters,Feet,Meters,Inches,Millimeters,Feet and fractional inches,Fractional inches,Meters and centimeters
+autodesk.spec.aec.hvac:ductLiningThickness-2.0.0:Fractional inches:Centimeters,Decimeters,Feet,Meters,Inches,Millimeters,Feet and fractional inches,Fractional inches,Meters and centimeters
+autodesk.spec.aec.hvac:ductSize-2.0.0:Fractional inches:Centimeters,Decimeters,Feet,Meters,Inches,Millimeters,Feet and fractional inches,Fractional inches,Meters and centimeters
+autodesk.spec.aec.hvac:factor-2.0.0:Percentage:Fixed,Percentage
+autodesk.spec.aec.hvac:flowPerPower-2.0.0:Cubic feet per minute per British thermal unit per hour:Cubic feet per minute per British thermal unit per hour,Cubic meters per watt second
+autodesk.spec.aec.hvac:friction-2.0.0:Inches of water (60 °F) per 100 feet:Feet of water (39.2 °F) per 100 feet,Inches of water (60 °F) per 100 feet,Meters of water column per meter,Millimeters of water column per meter,Pascals per meter
+autodesk.spec.aec.hvac:heatGain-2.0.0:British thermal units per hour:British thermal units per hour,British thermal units per second,Calories per second,Kilowatts,Watts
+autodesk.spec.aec.hvac:heatingLoad-2.0.0:British thermal units per hour:British thermal units per hour,British thermal units per second,Kilowatts,Watts
+autodesk.spec.aec.hvac:heatingLoadDividedByArea-2.0.0:British thermal units per hour square foot:British thermal units per hour square foot,Watts per square foot,Watts per square meter
+autodesk.spec.aec.hvac:heatingLoadDividedByVolume-2.0.0:British thermal units per hour cubic foot:British thermal units per hour square foot,Watts per square foot,Watts per square meter
+autodesk.spec.aec.hvac:massPerTime-2.0.0:Pounds mass per hour:Kilograms per hour,Kilograms per minute,Kilograms per second,Pounds mass per hour,Pounds mass per minute,Pounds mass per second
+autodesk.spec.aec.hvac:power-2.0.0:British thermal units per hour:British thermal units per hour,British thermal units per second,Calories per second,Kilocalories per second,Kilowatts,Watts
+autodesk.spec.aec.hvac:powerDensity-2.0.0:Watts per square foot:British thermal units per hour square foot,Watts per square foot,Watts per square meter
+autodesk.spec.aec.hvac:powerPerFlow-2.0.0:Watts per cubic foot per minute:Watts per cubic foot per minute,Watts per cubic meter per second
+autodesk.spec.aec.hvac:pressure-2.0.0:Inches of water (60 °F):Atmospheres,Bars,Feet of water (39.2 °F),Inches of mercury (32 °F),Inches of water (60 °F),Kilopascals,Megapascals,Meters of water column,Millimeters of mercury,Millimeters of water column,Pascals,Pounds force per square inch
+autodesk.spec.aec.hvac:roughness-2.0.0:Feet:Centimeters,Decimeters,Feet,Meters,Inches,Millimeters,Feet and fractional inches,Fractional inches,Meters and centimeters
+autodesk.spec.aec.hvac:slope-2.0.0:Rise / 12 inches:1 : Ratio,Per mile,Percentage,Ratio : 1,Ratio : 10,Ratio : 12,Rise / 1000 millimeters,Rise / 10 feet,Rise / 120 inches,Rise / 12 inches,Rise / 1 foot,Degrees
+autodesk.spec.aec.hvac:temperature-2.0.0:Fahrenheit:Celsius,Fahrenheit,Kelvin,Rankine
+autodesk.spec.aec.hvac:velocity-2.0.0:Feet per minute:Centimeter per minute,Feet per minute,Feet per second,Kilometers per hour,Meters per second,Miles per hour
+autodesk.spec.aec.hvac:viscosity-2.0.0:Centipoises:Centipoises,Kilograms per meter hour,Kilograms per meter second,Newton seconds per square meter,Pascal seconds,Pound force seconds per square foot,Pound mass per foot hour,Pounds mass per foot second
+autodesk.spec.aec.infrastructure:stationing-2.0.0:Feet:Feet,Meters,US survey feet
+autodesk.spec.aec.piping:density-2.0.0:Pounds mass per cubic foot:Kilograms per cubic meter,Pounds mass per cubic foot,Pounds mass per cubic inch
+autodesk.spec.aec.piping:flow-2.0.0:US gallons per minute:Cubic feet per hour,Cubic feet per minute,Cubic meters per hour,Cubic meters per minute,Liters per hour,Liters per minute,Liters per second,US gallons per hour,US gallons per minute
+autodesk.spec.aec.piping:friction-2.0.0:Feet of water (39.2 °F) per 100 feet:Feet of water (39.2 °F) per 100 feet,Inches of water (60 °F) per 100 feet,Meters of water column per meter,Millimeters of water column per meter,Pascals per meter
+autodesk.spec.aec.piping:mass-2.0.0:Pounds mass:
+autodesk.spec.aec.piping:massPerTime-2.0.0:Pounds mass per hour:Kilograms per hour,Kilograms per minute,Kilograms per second,Pounds mass per hour,Pounds mass per minute,Pounds mass per second
+autodesk.spec.aec.piping:pipeDimension-2.0.0:Inches:Centimeters,Inches,Millimeters,Fractional inches
+autodesk.spec.aec.piping:pipeInsulationThickness-2.0.0:Fractional inches:Centimeters,Decimeters,Feet,Meters,Inches,Millimeters,Feet and fractional inches,Fractional inches,Meters and centimeters
+autodesk.spec.aec.piping:pipeMassPerUnitLength-2.0.0:Pounds mass per foot:Kilograms per meter,Pounds mass per foot
+autodesk.spec.aec.piping:pipeSize-2.0.0:Fractional inches:Centimeters,Decimeters,Feet,Meters,Inches,Millimeters,Feet and fractional inches,Fractional inches,Meters and centimeters
+autodesk.spec.aec.piping:pressure-2.0.0:Pounds force per square inch:Atmospheres,Bars,Feet of water (39.2 °F),Inches of mercury (32 °F),Inches of water (60 °F),Kilopascals,Megapascals,Meters of water column,Millimeters of mercury,Millimeters of water column,Pascals,Pounds force per square inch
+autodesk.spec.aec.piping:roughness-2.0.0:Inches:Centimeters,Decimeters,Feet,Meters,Inches,Millimeters,Feet and fractional inches,Fractional inches,Meters and centimeters
+autodesk.spec.aec.piping:slope-2.0.0:Rise / 12 inches:1 : Ratio,Per mile,Percentage,Ratio : 1,Ratio : 10,Ratio : 12,Rise / 1000 millimeters,Rise / 10 feet,Rise / 120 inches,Rise / 12 inches,Rise / 1 foot,Degrees
+autodesk.spec.aec.piping:temperature-2.0.0:Fahrenheit:Celsius,Fahrenheit,Kelvin,Rankine
+autodesk.spec.aec.piping:velocity-2.0.0:Feet per second:Centimeter per minute,Feet per minute,Feet per second,Kilometers per hour,Meters per second,Miles per hour
+autodesk.spec.aec.piping:viscosity-2.0.0:Centipoises:Centipoises,Kilograms per meter hour,Kilograms per meter second,Newton seconds per square meter,Pascal seconds,Pound force seconds per square foot,Pound mass per foot hour,Pounds mass per foot second
+autodesk.spec.aec.piping:volume-2.0.0:US gallons:Cubic centimeters,Cubic feet,Cubic inches,Cubic meters,Cubic millimeters,Cubic yards,Liters,US gallons
+autodesk.spec.aec.structural:acceleration-2.0.0:Feet per second squared:Feet per second squared,Inches per second squared,Kilometers per second squared,Meters per second squared,Miles per second squared
+autodesk.spec.aec.structural:areaForce-2.0.0:Kips per square foot:Dekanewtons per square meter,Kilograms force per square meter,Kilonewtons per square meter,Kilopascals,Kips per square foot,Meganewtons per square meter,Megapascals,Newtons per Square meter,Pascals,Pounds force per square foot,Tonnes force per square meter
+autodesk.spec.aec.structural:areaSpringCoefficient-2.0.0:Kips per cubic foot:Feet of water (39.2 °F) per 100 feet,Inches of water (60 °F) per 100 feet,Kilonewtons per cubic meter,Kips per cubic foot,Kips per cubic inch,Pascals per meter,Pounds force per cubic foot
+autodesk.spec.aec.structural:barDiameter-2.0.0:Inches:Centimeters,Decimeters,Feet,Inches,Meters,Millimeters,Feet and fractional inches,Fractional inches
+autodesk.spec.aec.structural:crackWidth-2.0.0:Inches:Centimeters,Feet,Inches,Meters,Millimeters,Feet and fractional inches,Meters and centimeters
+autodesk.spec.aec.structural:displacement-2.0.0:Inches:Centimeters,Feet,Inches,Meters,Millimeters,Feet and fractional inches,Fractional inches,Meters and centimeters
+autodesk.spec.aec.structural:energy-2.0.0:Pound force feet:Joules,Kilogram force meters,Kilojoules,Newton meters,Pound force feet
+autodesk.spec.aec.structural:force-2.0.0:Kips:Dekanewtons,Kilograms force,Kilonewtons,Kips,Meganewtons,Newtons,Pounds force,Tonnes force,US tonnes force
+autodesk.spec.aec.structural:frequency-2.0.0:Hertz:Cubic feet per minute cubic foot,Cycles per second,Hertz,Liters per second cubic meter
+autodesk.spec.aec.structural:lineSpringCoefficient-2.0.0:Kips per square foot:Atmospheres,Bars,Dekanewtons per square meter,Feet of water (39.2 °F),Inches of mercury (32 °F),Inches of water (60 °F),Kilograms force per square meter,Kilonewtons per square meter,Kilonewtons per square centimeter,Kilonewtons per square millimeter,Kilopascals,Kips per square foot,Kips per square inch,Meganewtons per square meter,Megapascals,Millimeters of mercury,Newtons per square meter,Newtons per square millimeter,Pascals,Pounds force per square foot,Pounds force per square inch,Tonnes force per square meter
+autodesk.spec.aec.structural:linearForce-2.0.0:Kips per foot:Dekanewtons per meter,Kilogram force per meter,Kips per foot,Kips per inch,Meganewtons per meter,Newtons per meter,Pounds force per foot,Tonnes force per meter
+autodesk.spec.aec.structural:linearMoment-2.0.0:Kip feet per foot:Dekanewton meters per meter,Kilogram force meters per meter,Kilonewton meters per meter,Kip feet per foot,Meganewton meters per meter,Newton meters per meter,Pound force feet per foot,Tonne force meters per meter
+autodesk.spec.aec.structural:mass-2.0.0:Pounds mass:Kilograms,Pounds mass,Tonnes,US tonnes mass
+autodesk.spec.aec.structural:massPerUnitArea-2.0.0:Pounds per square foot:Kilograms per square meter,Pounds per square foot
+autodesk.spec.aec.structural:massPerUnitLength-2.0.0:Pounds mass per foot:Kilograms per meter,Pounds mass per foot
+autodesk.spec.aec.structural:moment-2.0.0:Kip feet:Dekanewton meters,Kilogram force meters,Kilonewton meters,Kip feet,Meganewton meters,Newton meters,Pound force feet,Tonne force meters
+autodesk.spec.aec.structural:momentOfInertia-2.0.0:Inches to the fourth power:Centimeters to the fourth power,Feet to the fourth power,Inches to the fourth power,Meters to the fourth power,Millimeters to the fourth power
+autodesk.spec.aec.structural:period-2.0.0:Seconds:Hours,Milliseconds,Minutes,Seconds
+autodesk.spec.aec.structural:pointSpringCoefficient-2.0.0:Kips per inch:Dekanewtons per meter,Kilogram force per meter,Kips per foot,Kips per inch,Meganewtons per meter,Newtons per meter,Pounds force per foot,Tonnes force per meter
+autodesk.spec.aec.structural:pulsation-2.0.0:Radians per second:Radians per second
+autodesk.spec.aec.structural:reinforcementArea-2.0.0:Square inches:Square centimeters,Square feet,Square inches,Square meters,Square millimeters
+autodesk.spec.aec.structural:reinforcementAreaPerUnitLength-2.0.0:Square inches per foot:Square centimeters per meter,Square feet per foot,Square inches per foot,Square meters per meter,Square millimeters per meter
+autodesk.spec.aec.structural:reinforcementCover-2.0.0:Feet and fractional inches:Centimeters,Feet,Inches,Meters,Millimeters,Feet and fractional inches,Fractional inches
+autodesk.spec.aec.structural:reinforcementLength-2.0.0:Feet and fractional inches:Centimeters,Feet,Inches,Meters,Millimeters,Feet and fractional inches,Fractional inches
+autodesk.spec.aec.structural:reinforcementSpacing-2.0.0:Feet and fractional inches:Centimeters,Feet,Inches,Meters,Millimeters,Feet and fractional inches,Fractional inches
+autodesk.spec.aec.structural:reinforcementVolume-2.0.0:Cubic inches:Cubic centimeters,Cubic feet,Cubic inches,Cubic meters,Cubic millimeters,Cubic yards,Liters,US gallons
+autodesk.spec.aec.structural:rotation-2.0.0:Radians:Degrees,Radians,Gradians,Degree minute second
+autodesk.spec.aec.structural:rotationalLineSpringCoefficient-2.0.0:Kip feet per degree per foot:Kilonewton meters per degree per meter,Kip feet per degree per foot
+autodesk.spec.aec.structural:rotationalPointSpringCoefficient-2.0.0:Kip feet per degree:Kilonewton meters per degree,Kip feet per degree
+autodesk.spec.aec.structural:sectionArea-2.0.0:Square inches:Square centimeters,Square feet,Square inches,Square meters,Square millimeters
+autodesk.spec.aec.structural:sectionDimension-2.0.0:Feet and fractional inches:Centimeters,Decimeters,Feet,Meters,Inches,Millimeters,Feet and fractional inches,Fractional inches,Meters and centimeters
+autodesk.spec.aec.structural:sectionModulus-2.0.0:Cubic inches:Cubic centimeters,Cubic feet,Cubic inches,Cubic meters,Cubic millimeters
+autodesk.spec.aec.structural:sectionProperty-2.0.0:Inches:Centimeters,Decimeters,Feet,Meters,Inches,Millimeters,Feet and fractional inches,Fractional inches,Meters and centimeters
+autodesk.spec.aec.structural:stress-2.0.0:Kips per square inch:Bars,Dekanewtons per square meter,Kilogram force per square meter,Kilonewtons per square centimeter,Kilonewtons per square meter,Kilonewtons per square millimeter,Kilopascals,Kips per square foot,Kips per square inch,Meganewtons per square meter,Megapascals,Newtons per square meter,Newtons per square millimeter,Pascals,Pounds force per square foot,Pounds force per square inch,Toones force per square meter
+autodesk.spec.aec.structural:surfaceAreaPerUnitLength-2.0.0:Square feet per foot:Square feet per foot,Square meters per meter
+autodesk.spec.aec.structural:thermalExpansionCoefficient-2.0.0:Inverse degrees Fahrenheit:Inverse Degrees Celsius,Inverse degrees Fahrenheit,Microinches per inch degree Fahrenheit,Micrometers per meter degree Celsius
+autodesk.spec.aec.structural:unitWeight-2.0.0:Pounds force per cubic foot:Kilonewtons per cubic meter,Kips per cubic inch,Pounds force per cubic foot
+autodesk.spec.aec.structural:velocity-2.0.0:Feet per second:Centimeter per minute,Feet per minute,Feet per second,Kilometers per hour,Meters per second,Miles per hour
+autodesk.spec.aec.structural:warpingConstant-2.0.0:Inches to the sixth power:Centimeters to the sixth power,Feet to the sixth power,Inches to the sixth power,Meters to the sixth power,Millimeters to the sixth power
+autodesk.spec.aec.structural:weight-2.0.0:Pounds force:Dekanewtons,Kilograms force,Kilonewtons,Kips,Meganewtons,Newtons,Pounds force,Tonnes force,US tonnes force
+autodesk.spec.aec.structural:weightPerUnitLength-2.0.0:Pounds force per foot:Dekanewtons per meter,Kilogram force per meter,Kips per foot,Kips per inch,Meganewtons per meter,Newtons per meter,Pounds force per foot,Tonnes force per meter
+autodesk.spec.aec:angle-2.0.0:Degrees:Degrees,Radians,Gradians,Degree minute second
+autodesk.spec.aec:area-2.0.0:Square feet:Square meters,Square feet,Hectares,Acres
+autodesk.spec.aec:costPerArea-2.0.0:Cost per square foot:Cost per square foot,Cost per square meter
+autodesk.spec.aec:distance-2.0.0:Feet:Centimeters,Decimeters,Feet,Inches,Meters,Millimeters,US survey feet
+autodesk.spec.aec:length-2.0.0:Feet and fractional inches:Centimeters,Decimeters,Feet,Inches,Meters,Millimeters,US survey feet,Feet and fractional inches,Fractional inches,Meter and centimeters
+autodesk.spec.aec:massDensity-2.0.0:Pounds mass per cubic foot:Kilograms per cubic meter,Pounds mass per cubic foot
+autodesk.spec.aec:rotationAngle-2.0.0:Degrees:Degrees,Gradians,Number of n,Radians
+autodesk.spec.aec:slope-2.0.0:Rise / 12 inches:1 : Ratio,Per mile,Percentage,Ratio : 1,Ratio : 10,Ratio : 12,Rise / 1000 millimeters,Rise / 10 feet,Rise / 120 inches,Rise / 12 inches,Rise / 1 foot,Degrees
+autodesk.spec.aec:speed-2.0.0:Miles per hour:Centimeter per minute,Feet per minute,Feet per second,Kilometers per hour,Meters per second,Miles per hour
+autodesk.spec.aec:time-2.0.0:Seconds:Hours,Milliseconds,Minutes,Seconds
+autodesk.spec.aec:volume-2.0.0:Cubic feet:Cubic centimeters,Cubic feet,Cubic inches,Cubic meters,Cubic millimeters,Cubic yards,Liters,US gallons
+autodesk.spec.measurable:currency-2.0.0:Unknown:

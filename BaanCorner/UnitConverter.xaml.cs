@@ -38,7 +38,7 @@ namespace UnitConverter
             public string SelectedFormat { get; set; }
         }
 
-        private List<Unit> PopulateGrid(Document doc, string discipline)
+        private List<Unit> PopulateGrid(Document doc, string discipline, string filePaht = null)
         {
             var units = new List<Unit>();
             var projectUnits = doc.GetUnits();
@@ -370,6 +370,7 @@ namespace UnitConverter
                 MessageBox.Show("Export Completed!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
+        
         
 
 

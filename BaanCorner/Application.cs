@@ -17,16 +17,16 @@ public class Application : ExternalApplication
         var panel = Application.CreatePanel("Commands", "BaanCorner");
         var unitsPanel = Application.CreatePanel("Units", "BaanCorner");
 
-        panel.AddPushButton<StartupCommand>("Execute")
-            .SetImage("/BaanCorner;component/Resources/Icons/RibbonIcon16.png")
-            .SetLargeImage("/BaanCorner;component/Resources/Icons/RibbonIcon32.png");
+        panel.AddPushButton<StartupCommand>("baancorner")
+            .SetImage("/BaanCorner;component/Resources/Icons/BaancornerIcon16.png")
+            .SetLargeImage("/BaanCorner;component/Resources/Icons/BaancornerIcon32.png");
 
-        unitsPanel.AddPushButton<SaveProjectUnitsCommand>("Save")
-            .SetImage("/BaanCorner;component/Resources/Icons/RibbonIcon16.png")
-                .SetLargeImage("/BaanCorner;component/Resources/Icons/RibbonIcon32.png");
+        unitsPanel.AddPushButton<SaveProjectUnitsCommand>("Project Unit")
+            .SetImage("/BaanCorner;component/Resources/Icons/UnitIcon16.png")
+                .SetLargeImage("/BaanCorner;component/Resources/Icons/UnitIcon32.png");
         
-        unitsPanel.AddPushButton<LoadProjectUnitsCommand>("Load")
-            .SetImage("/BaanCorner;component/Resources/Icons/RibbonIcon16.png")
-            .SetLargeImage("/BaanCorner;component/Resources/Icons/RibbonIcon32.png");
+        unitsPanel.AddPushButton<LoadProjectUnitsCommand>("Unit Test")
+            .SetImage("/BaanCorner;component/Resources/Icons/TestIcon16.png")
+            .SetLargeImage("/BaanCorner;component/Resources/Icons/TestIcon32.png");
     }
 }

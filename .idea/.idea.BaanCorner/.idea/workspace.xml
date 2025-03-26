@@ -9,6 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="63d296ca-4bce-4b45-bdb9-930a27d207d8" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../.idea/Projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaanCorner/Resources/Icons/unit-32.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Backend/.idea/Backend.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Backend/nest-app/.idea/nest-app.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Express-Auth/.idea/Express-Auth.iml" afterDir="false" />
@@ -28,9 +29,9 @@
       <change afterPath="$USER_HOME$/AppData/Local/JetBrains/Rider2024.3/projects/leavemanagementsystem.ca6b4e0c/cache-state.xml" afterDir="false" />
       <change afterPath="$APPLICATION_CONFIG_DIR$/workspace/2uMAKWYf4oh3DfZeIntNb4m1AFN.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BaanCorner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BaanCorner/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaanCorner/Commands/LoadProjectUnitsCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/Commands/LoadProjectUnitsCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaanCorner/Services/UnitService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/Services/UnitService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaanCorner/Services/๊UnitFormats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/Services/๊UnitFormats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaanCorner/Application.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/Application.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaanCorner/BaanCorner.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/BaanCorner.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaanCorner/UnitConverter.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/UnitConverter.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaanCorner/UnitConverter.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/UnitConverter.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaanCorner/bin/Debug R24/BaanCorner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/bin/Debug R24/BaanCorner.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaanCorner/bin/Debug R24/BaanCorner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/bin/Debug R24/BaanCorner.pdb" afterDir="false" />
@@ -39,8 +40,12 @@
       <change beforePath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.g.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner_MarkupCompile.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/UnitConverter.baml" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/UnitConverter.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/UnitConverter.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/UnitConverter.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NodeAPI/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/.idea/discord.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NodeAPI/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app11-1/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app11-1/index.js" afterDir="false" />
@@ -142,101 +147,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/620f6e7eba834c42a2f2db6b22950df6531838/3f/da690ae5/ThrowHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/620f6e7eba834c42a2f2db6b22950df6531838/8f/42cffb5a/RuntimeMethodInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/620f6e7eba834c42a2f2db6b22950df6531838/a9/2cfe204f/List`1.cs" root0="SKIP_HIGHLIGHTING" />
@@ -299,7 +209,8 @@
       <workItem from="1742833255122" duration="1533000" />
       <workItem from="1742837662381" duration="2359000" />
       <workItem from="1742862915541" duration="45955000" />
-      <workItem from="1742954669776" duration="37139000" />
+      <workItem from="1742954669776" duration="40287000" />
+      <workItem from="1742999930994" duration="2083000" />
     </task>
     <servers />
   </component>

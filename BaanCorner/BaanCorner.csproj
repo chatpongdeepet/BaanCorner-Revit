@@ -52,6 +52,31 @@
     <ItemGroup>
         <Resource Include="Resources\Icons\RibbonIcon16.png"/>
         <Resource Include="Resources\Icons\RibbonIcon32.png"/>
+        <None Remove="Resources\Icons\baancorner_logo16.png" />
+        <None Remove="Resources\Icons\baancorner_logo32.png" />
+        <None Remove="Resources\Icons\export16.png" />
+        <Resource Include="Resources\Icons\export16.png" />
+        <None Remove="Resources\Icons\export32.png" />
+        <Resource Include="Resources\Icons\export32.png" />
+        <None Remove="Resources\Icons\import16.png" />
+        <Resource Include="Resources\Icons\import16.png" />
+        <None Remove="Resources\Icons\import32.png" />
+        <Resource Include="Resources\Icons\import32.png" />
+        <None Remove="Resources\Icons\Linkedin_logo.png" />
+        <Resource Include="Resources\Icons\Linkedin_logo.png" />
+        <None Remove="Resources\Icons\unit-32.png" />
+        <None Remove="Resources\Icons\BaancornerIcon16.png" />
+        <Resource Include="Resources\Icons\BaancornerIcon16.png" />
+        <None Remove="Resources\Icons\BaancornerIcon32.png" />
+        <Resource Include="Resources\Icons\BaancornerIcon32.png" />
+        <None Remove="Resources\Icons\TestIcon16.png" />
+        <Resource Include="Resources\Icons\TestIcon16.png" />
+        <None Remove="Resources\Icons\TestIcon32.png" />
+        <Resource Include="Resources\Icons\TestIcon32.png" />
+        <None Remove="Resources\Icons\UnitIcon16.png" />
+        <Resource Include="Resources\Icons\UnitIcon16.png" />
+        <None Remove="Resources\Icons\UnitIcon32.png" />
+        <Resource Include="Resources\Icons\UnitIcon32.png" />
     </ItemGroup>
 
     <ItemGroup>
