@@ -24,6 +24,9 @@ namespace UnitConverter
             CommonDataGrid.ItemsSource = PopulateGrid(doc, "Common");
             ElectricalDataGrid.ItemsSource = PopulateGrid(doc, "Electrical");
             EnergyDataGrid.ItemsSource = PopulateGrid(doc, "Energy");
+            HVACDataGrid.ItemsSource = PopulateGrid(doc, "HVAC");
+            InfrastructureDataGrid.ItemsSource = PopulateGrid(doc, "Infrastructure");
+            PipingDataGrid.ItemsSource = PopulateGrid(doc, "Piping");
         }
 
         // Class for Unit information
@@ -118,6 +121,102 @@ namespace UnitConverter
                    "Thermal gradient Coefficient",
                    "Thermal Mass",
                    "Thermal Resistance"
+                };
+                foreach (var unitName in unitNames)
+                {
+                    if (UnitFormats.UnitNameToSpec.TryGetValue(unitName, out var spec))
+                    {
+                        units.Add(new Unit
+                        {
+                            UnitName = unitName,
+                            FormatOptions = UnitService.GetUnitFormats(projectUnits, spec),
+                            SelectedFormat = UnitService.GetSelectedFormat(projectUnits, spec)
+                        });
+                    }
+                }
+            }
+            if (discipline == "HVAC")
+            {
+                var unitNames = new List<string>
+                {
+                    "Air Flow",
+                    "Air Flow Density",
+                    "Air Flow divided by Cooling",
+                    "Air Flow divided by Volume",
+                    "Angular Speed",
+                    "Area divided by Cooling Load",
+                    "Area divided by Heating Load",
+                    "Cooling Load",
+                    "Cooling Load divided by Area",
+                    "Cooling Load divided by Volumn",
+                    "Cross Section",
+                    "HVAC Density",
+                    "Diffusivity",
+                    "Duct Insulation Thickness",
+                    "Duct Lining Thickness",
+                    "Duct Size",
+                    "Factor",
+                    "Flow per Power",
+                    "Friction",
+                    "Heat Gain",
+                    "Heating Load",
+                    "Heating Load divided by Area",
+                    "Heating Load divided by Volumne",
+                    "Mass per Time",
+                    "HVAC Power",
+                    "HVAC Power Density",
+                    "Power per Flow",
+                    "HVAC Pressure",
+                    "Roughness",
+                    "HVAC Slope",
+                    "HVAC Temperature",
+                    "HVAC Velocity",
+                    "Dynamic Viscosity"
+                };
+                foreach (var unitName in unitNames)
+                {
+                    if (UnitFormats.UnitNameToSpec.TryGetValue(unitName, out var spec))
+                    {
+                        units.Add(new Unit
+                        {
+                            UnitName = unitName,
+                            FormatOptions = UnitService.GetUnitFormats(projectUnits, spec),
+                            SelectedFormat = UnitService.GetSelectedFormat(projectUnits, spec)
+                        });
+                    }
+                }
+            }
+            
+            if (discipline == "Infrastructure")
+            {
+                var unitNames = new List<string>
+                {
+                    "Stationing"
+                };
+                foreach (var unitName in unitNames)
+                {
+                    if (UnitFormats.UnitNameToSpec.TryGetValue(unitName, out var spec))
+                    {
+                        units.Add(new Unit
+                        {
+                            UnitName = unitName,
+                            FormatOptions = UnitService.GetUnitFormats(projectUnits, spec),
+                            SelectedFormat = UnitService.GetSelectedFormat(projectUnits, spec)
+                        });
+                    }
+                }
+            }
+            
+            if (discipline == "Piping")
+            {
+                var unitNames = new List<string>
+                {
+                    "Piping Density", "Flow", "Piping Friction",
+                    "Piping Mass per Time", "Pipe Dimension",
+                    "Pipe Insulation Thickness", "Pipe Mass per Unit Lenght",
+                    "Pipe Size", "Pipe Pressure", "Pipe Roughness",
+                    "Pipe Slope", "Pipe Temperature", "Pipe Velocity",
+                    "Pipe Dynamic Viscosity", "Pipe Volume"
                 };
                 foreach (var unitName in unitNames)
                 {

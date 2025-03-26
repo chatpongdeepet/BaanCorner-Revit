@@ -31,7 +31,7 @@ public class LoadProjectUnitsCommand : ExternalCommand
         var formatOptionsTest = doc.GetUnits().GetFormatOptions(SpecTypeId.Length);
         var typeId = formatOptionsTest.GetUnitTypeId().TypeId;
 
-        var angleFormats = GetAvailableUnitFormats(units, SpecTypeId.ThermalResistance);
+        var angleFormats = GetAvailableUnitFormats(units, SpecTypeId.PipingMassPerTime);
         
         
             

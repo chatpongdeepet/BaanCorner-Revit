@@ -100,7 +100,7 @@
             </TabItem>
             
             <TabItem Header="Infrastructure">
-                <DataGrid Name="InfastructureDataGrid" AutoGenerateColumns="False" IsReadOnly="False">
+                <DataGrid Name="InfrastructureDataGrid" AutoGenerateColumns="False" IsReadOnly="False">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="ชื่อหน่วย (Unit Name)" Binding="{Binding UnitName}" IsReadOnly="True" Width="*"/>
                         
