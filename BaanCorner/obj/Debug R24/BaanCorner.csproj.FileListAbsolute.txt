@@ -15,3 +15,4 @@ C:\Projects\BaanCorner\BaanCorner\obj\Debug R24\BaanCorner.pdb
 C:\Projects\BaanCorner\BaanCorner\obj\Debug R24\UnitConverter.baml
 C:\Projects\BaanCorner\BaanCorner\obj\Debug R24\UnitConverter.g.cs
 C:\Projects\BaanCorner\BaanCorner\obj\Debug R24\BaanCorner_MarkupCompile.cache
+C:\Projects\BaanCorner\BaanCorner\obj\Debug R24\BaanCorner.sourcelink.json

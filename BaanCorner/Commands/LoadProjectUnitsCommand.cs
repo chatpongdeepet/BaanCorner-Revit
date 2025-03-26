@@ -31,7 +31,7 @@ public class LoadProjectUnitsCommand : ExternalCommand
         var formatOptionsTest = doc.GetUnits().GetFormatOptions(SpecTypeId.Length);
         var typeId = formatOptionsTest.GetUnitTypeId().TypeId;
 
-        var angleFormats = GetAvailableUnitFormats(units, SpecTypeId.Volume);
+        var angleFormats = GetAvailableUnitFormats(units, SpecTypeId.ThermalResistance);
         
         
             
@@ -40,8 +40,6 @@ public class LoadProjectUnitsCommand : ExternalCommand
             TaskDialog.Show("Length Format", format);
         }
         
-
-
     }
     
     private List<string> GetAvailableUnitFormats(Units projectUnits, ForgeTypeId spec)
