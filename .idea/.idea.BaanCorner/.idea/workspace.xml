@@ -31,7 +31,6 @@
       <change beforePath="$PROJECT_DIR$/BaanCorner/Commands/LoadProjectUnitsCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/Commands/LoadProjectUnitsCommand.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaanCorner/Services/UnitService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/Services/UnitService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaanCorner/Services/๊UnitFormats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/Services/๊UnitFormats.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaanCorner/UnitConverter.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/UnitConverter.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaanCorner/UnitConverter.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/UnitConverter.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaanCorner/bin/Debug R24/BaanCorner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/bin/Debug R24/BaanCorner.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaanCorner/bin/Debug R24/BaanCorner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/bin/Debug R24/BaanCorner.pdb" afterDir="false" />
@@ -40,11 +39,8 @@
       <change beforePath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.g.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/BaanCorner.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/UnitConverter.baml" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/UnitConverter.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/UnitConverter.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BaanCorner/obj/Debug R24/UnitConverter.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NodeAPI/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/.idea/discord.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NodeAPI/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NodeAPI/initial-project/app11-1/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeAPI/initial-project/app11-1/index.js" afterDir="false" />
@@ -233,6 +229,13 @@
     <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/620f6e7eba834c42a2f2db6b22950df6531838/3f/da690ae5/ThrowHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/620f6e7eba834c42a2f2db6b22950df6531838/8f/42cffb5a/RuntimeMethodInfo.cs" root0="FORCE_HIGHLIGHTING" />
@@ -296,7 +299,7 @@
       <workItem from="1742833255122" duration="1533000" />
       <workItem from="1742837662381" duration="2359000" />
       <workItem from="1742862915541" duration="45955000" />
-      <workItem from="1742954669776" duration="23611000" />
+      <workItem from="1742954669776" duration="37139000" />
     </task>
     <servers />
   </component>

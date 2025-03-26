@@ -27,6 +27,7 @@ namespace UnitConverter
             HVACDataGrid.ItemsSource = PopulateGrid(doc, "HVAC");
             InfrastructureDataGrid.ItemsSource = PopulateGrid(doc, "Infrastructure");
             PipingDataGrid.ItemsSource = PopulateGrid(doc, "Piping");
+            StructuralDataGrid.ItemsSource = PopulateGrid(doc, "Structural");
         }
 
         // Class for Unit information
@@ -135,6 +136,7 @@ namespace UnitConverter
                     }
                 }
             }
+            
             if (discipline == "HVAC")
             {
                 var unitNames = new List<string>
@@ -231,6 +233,67 @@ namespace UnitConverter
                     }
                 }
             }
+            
+            if (discipline == "Structural")
+            {
+                var unitNames = new List<string>
+                {
+                    "Acceleration",
+                    "Area Force",
+                    "Area Spring Coefficient",
+                    "Bar Diameter",
+                    "Crack Width",
+                    "Displacement/Deflection",
+                    "Structure Energy",
+                    "Force",
+                    "Frequency",
+                    "Line Spring Coefficient",
+                    "Linear Force",
+                    "Linear Moment",
+                    "Mass",
+                    "Mass per Unit Area",
+                    "Structure Mass per Unit Lenght",
+                    "Moment",
+                    "Moment of Inertia",
+                    "Period",
+                    "Point Spring Coefficient",
+                    "Pulsation",
+                    "Reinforcement Area",
+                    "Reinforcement Area per Unit Length",
+                    "Reinforcement Cover",
+                    "Reinforcement Spacing",
+                    "Reinforcement Length",
+                    "Reinforcement Volume",
+                    "Rotation",
+                    "Rotational Line Spring Coefficient",
+                    "Rotational Point Spring Coefficient",
+                    "Section Area",
+                    "Section Dimension",
+                    "Section Modulus",
+                    "Section Property",
+                    "Stress",
+                    "Surface Area per Unit Lenght",
+                    "Thermal Expansion Coefficient",
+                    "Unit Weight",
+                    "Structural Velocity",
+                    "Warping Constant",
+                    "Weight",
+                    "Weight per Unit Length"
+                };
+                foreach (var unitName in unitNames)
+                {
+                    if (UnitFormats.UnitNameToSpec.TryGetValue(unitName, out var spec))
+                    {
+                        units.Add(new Unit
+                        {
+                            UnitName = unitName,
+                            FormatOptions = UnitService.GetUnitFormats(projectUnits, spec),
+                            SelectedFormat = UnitService.GetSelectedFormat(projectUnits, spec)
+                        });
+                    }
+                }
+            }
+            
 
             return units;
         }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BaanCorner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug R24")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d67e50d929982b4823c83bab2da65c68b4771767")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d36b4d25d5699378fd04e4a96eb51fee71d9ab99")]
 [assembly: System.Reflection.AssemblyProductAttribute("BaanCorner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BaanCorner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
