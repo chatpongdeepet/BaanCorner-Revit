@@ -1,7 +1,7 @@
 # Unit Converter Application  
 
 ---
-<img src="https://res.cloudinary.com/dmxeqymrz/image/upload/v1743054439/Panel_ljeank.png" width=50%>
+<img src="https://res.cloudinary.com/dmxeqymrz/image/upload/v1743054439/Panel_ljeank.png" width=100%>
 
 
 ## 📖 Description  
@@ -84,6 +84,7 @@ string UnitName
 ---
 
 ## 🎨 User Interface Overview  
+<img src="https://res.cloudinary.com/dmxeqymrz/image/upload/v1743054439/Panel_ljeank.png" width=100%>
 
 1. **Navigation Buttons**:  
    - **Export Button**: Styled with a custom icon and labeled "Export".  
@@ -95,8 +96,14 @@ string UnitName
 3. **Data Grids**:  
    - Each tab contains a `DataGrid` for displaying and configuring units. Columns include:
       - **Unit Name**: Read-only column displaying the unit name.  
-      - **Unit Format**: Editable dropdown (ComboBox) to select the desired unit format.  
+      - **Unit Format**: Editable dropdown (ComboBox) to select the desired unit format.
+    
+      - 
+<img src="https://res.cloudinary.com/dmxeqymrz/image/upload/v1743054440/Piping_eo2fqf.png" width=50%>
 
+
+
+<img src="https://res.cloudinary.com/dmxeqymrz/image/upload/v1743054440/sample_gjr1fp.png" width=50%>
 ---
 
 ## 📤 Importing & Exporting Units  
