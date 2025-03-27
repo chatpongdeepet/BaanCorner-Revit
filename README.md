@@ -1,7 +1,7 @@
 # Unit Converter Application  
 
 ---
-<img src="[https://res.cloudinary.com/dmxeqymrz/image/upload/v1743054439/Panel_ljeank.png]" width=50%>
+<img src="https://res.cloudinary.com/dmxeqymrz/image/upload/v1743054439/Panel_ljeank.png" width=50%>
 
 
 ## 📖 Description  
